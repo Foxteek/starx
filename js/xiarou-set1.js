@@ -20,8 +20,8 @@ github：https://www.aa1.cn
 由 Foxtea 二次修改
 github：https://www.github.com/Foxteek/starx
 日期：2023-2-28
-*/
 ========================================
+*/
 
 // 默认搜索引擎列表
 var se_list_preinstall = {
