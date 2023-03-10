@@ -1161,7 +1161,7 @@ $(document).ready(function() {
     // 上传云端 跳转链接
 
     $("#my_data_cloudup").click(function() {
-        window.open("https://blog.csdn.net/qq_38974638");
+        window.open("https://shequ.codemao.cn/work/171071348");
     });
 
     // 选择文件后读取文件内容
