@@ -1159,11 +1159,6 @@ $(document).ready(function() {
     });
 
     // 我的数据导入 点击触发文件选择
-    $("#my_data_cloudup").click(function() {
-        window.open("https://shequ.codemao.cn/work/171071348");
-    });
-
-    // 我的数据导入 点击触发文件选择
 
     $("#my_data_").click(function() {
 
