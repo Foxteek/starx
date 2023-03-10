@@ -17,6 +17,16 @@ github：https://github.com/imsyy/sou2
 github：https://www.aa1.cn
 日期：2022-12-18
 */
+========================================
+
+由 Foxtea 二次修改
+
+github：https://www.github.com/Foxteek/starx
+
+日期：2023-2-28
+
+*/
+
 
 // 默认搜索引擎列表
 var se_list_preinstall = {
@@ -1149,10 +1159,17 @@ $(document).ready(function() {
     });
 
     // 我的数据导入 点击触发文件选择
-    $("#my_data_in").click(function() {
-        $("#my_data_file").click();
+    $("#my_data_cloudup").click(function() {
+        window.open("https://shequ.codemao.cn/work/171071348");
     });
 
+    // 我的数据导入 点击触发文件选择
+
+    $("#my_data_").click(function() {
+
+        $("#my_data_file").click();
+
+    });
     // 选择文件后读取文件内容
     $("#my_data_file").change(function() {
         var selectedFile = document.getElementById('my_data_file').files[0];
