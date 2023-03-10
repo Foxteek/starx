@@ -1158,6 +1158,12 @@ $(document).ready(function() {
         $("#my_data_file").click();
     });
 
+    // 上传云端 跳转链接
+
+    $("#my_data_in").click(function() {
+        window.open("https://blog.csdn.net/qq_38974638");
+    });
+
     // 选择文件后读取文件内容
     $("#my_data_file").change(function() {
         var selectedFile = document.getElementById('my_data_file').files[0];
