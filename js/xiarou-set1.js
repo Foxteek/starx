@@ -1160,7 +1160,7 @@ $(document).ready(function() {
 
     // 上传云端 跳转链接
 
-    $("#my_data_in").click(function() {
+    $("#my_data_cloudup").click(function() {
         window.open("https://blog.csdn.net/qq_38974638");
     });
 
